@@ -1,0 +1,41 @@
+Coding Test:
+
+Task instructions:
+The goal of this test is to complete a puzzle by matching a shuffled puzzle piece to the original location in the source image. The original image is provided in the base directory. Starter code is also provided.
+
+You are provided a json file containing a list of 2400 randomly shuffled puzzle pieces. Each row looks like this.
+
+{
+    "id": "e296a732-90c3-480d-aacf-221b2994eb6f",
+    "idx": 0
+}
+
+id – is a unique uuid to load a specific puzzle piece from the puzzle_pieces image folder.
+idx – is a unique integer that we will use to evaluate the result of your completed puzzle.
+
+The completed puzzle image is 1920x1080. The puzzle is split into 60 pieces wide by 40 pieces tall. Each piece is 32 pixels in width by 27 pixels in height.
+
+There are many ways to tackle this problem. We want to see how you handle new challenges.
+
+Coding instructions:
+
+- Please keep all code contained in the single python file provided for the test.
+- Please do not use any other non-standard python packages not included in the provided starter code.
+- You can use these external packages which are in the sample code.
+    - cv2
+    - numpy
+    - tqdm
+    - skimage
+- Packages that are part of python lib like math, multiprocessing, etc can be used.
+- Please follow good coding practices. Make use of design patterns and classes. We will be evaluating your code quality.
+
+Bonus:
+Optimize your code as fast as possible using efficient algorithms or parallel processing.
+
+Scoring instructions:
+
+We will be evaluating your test equally on these metrics.
+- Accuracy for your puzzle solution.
+- Coding quality.
+- Bonus: Speed it takes to solve the puzzle.
+
